@@ -7,7 +7,7 @@ import (
 func main() {
 	ob := NewOrderBook()
 
-	// PlaceOrder to place orders to the orderbook.
+	// Place orders.
 	ob.PlaceOrder(Buy, decimal.NewFromInt(10), decimal.NewFromFloat(1), "1")
 	ob.PlaceOrder(Sell, decimal.NewFromInt(11), decimal.NewFromFloat(1), "2")
 
